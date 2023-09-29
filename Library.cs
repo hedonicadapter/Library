@@ -11,6 +11,7 @@ namespace Library
         public List<Shelf> ListWithShelves = new List<Shelf>();
         public List<Member> ListWithMembers = new List<Member>();
         public List<Librarian> ListWithLibrarians = new List<Librarian>();
+        public List<Transaction> ListWithTransactions = new List<Transaction>();
 
 
 

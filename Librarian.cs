@@ -24,8 +24,10 @@ namespace Library
         }
 
      
-        public void AddBook()
+        public void AddBook(Member member, Book book)
         {
+            member._checkedOutBooks.Add(book);
+
 
         }
 
